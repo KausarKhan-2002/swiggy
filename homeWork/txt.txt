@@ -1,0 +1,25 @@
+1.CDN
+2.Crossorigin
+
+1. React.createElement will just create an HTML element inside React that is the core 
+   react things.
+2. But If we have to put the element into your DOM into our browser then we need to use 
+   ReactDOM libraries.
+   - We can just access the root element into ReactDOM using document and then render 
+     inside DOM.
+   - Because ultimately ReactDOM.createRoot will access the root from HTML and put it 
+     inside ReactDOM.  
+3.The most crucial things to the browsers is if suppose we have a web page and we click on the 
+  any button then what we are showing something in DOM and what we are hiding something in DOM 
+  means what we are getting changed immidiately that is the costly things to a broswer that'why 
+  all the frameworks and libraries keep improving this things and in same way React improved 
+  this things while providing our own DOM to track where the DOM is manuplating that is called 
+  virtual DOM.
+
+Create this structure using React.createElement.
+<div id="parent">
+    <div class="child">
+        <h1>Heading</h1>
+        <p>This is paragraph</p>
+    </div>
+</div>
