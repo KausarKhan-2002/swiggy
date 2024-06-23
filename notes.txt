@@ -1,7 +1,7 @@
 ========================== EPISODE 1 ==================================
 ========================== Inception ==================================
 Part 1 _____________________________
-First way to adding react into our project via CDN
+First way of adding react into our project via CDN
 CDN => Content Deliver Network 
 These are the website where React is hosted and we are just pulling 
 React project from there.
