@@ -38,3 +38,32 @@ Sibling is possible
 
 Note: If we write anything direct inside root then all that things will be replaced by 
       createRoot.
+
+========================== EPISODE 2 ==================================
+====================== Igniting our app ===============================
+Part 1 ___________________________________ 
+NPM: To include any packages in our project we need to use NPM.
+     All the packages are hosted in NPM.
+    
+    NPM does stand for node package manager it is a manager for everything that'why 
+    there are alot of random name available inside it's github repository but it works 
+    for package manager but not stand for the package manager.
+
+By following all these command we will get package.json file that is configuration to the npm.
+Suppose If we are using any library or package so npm take care of what is the version of 
+that library or package inside package.json file.
+
+package.json is a configuration to the npm that means If we install any package library 
+anything by npm then all that things will be configured inside package.json file.
+It can be Github configuration, It can be BrowserList configuration or anything else.
+===>
+npm init
+description: namaste-react
+package name: (namaste-react) namaste-react
+entry point: (index.js)
+text command: jest
+git repository:  https://github.com/kausar-khan-2002/namaste-react
+keyword: react, namaste-react
+author: kausar khan
+license: (ISC)
+is this ok? (yes)
